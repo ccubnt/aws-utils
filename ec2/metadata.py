@@ -8,8 +8,7 @@ from boto import ec2
 
 class Metadata(object):
 
-	def __init__(self, name):
-		self.name = name
+	def __init__(self):
 		self.md = {} 
 		self.mitem = {} 
 		self.ms = {} 
